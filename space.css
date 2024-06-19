@@ -1,0 +1,433 @@
+body {
+    background-image: url(images/space2.jpg);
+    background-size: cover;
+    
+    
+}
+
+.backgroundcolor {
+    background-color: rgba(255, 255, 255, 0.048);
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 0px 30px rgba(255, 208, 0, 0.438);
+}
+
+.backgroundcolorfooter {
+    background-color: rgba(255, 255, 255, 0.048);
+    border-radius: 10px;
+    width: 80%;
+    margin: 1% auto;
+    
+}
+
+.header {
+    padding: 1.5%;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    
+}
+
+.toptext {
+    font-family: fantasy;
+    color: white;
+    border: 1px ;
+    margin-left: 70%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.dropdown {
+    display: flex;
+    padding-right: 10px;
+    position: relative;
+}
+
+.contentdrop {
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.contentdrop a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.dropdown a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown:hover .contentdrop {
+    display: flex;
+}
+
+.hovera:hover {
+    color: rgb(255, 208, 0);
+    transition:  color 0.8s;
+}
+
+#toptextt:hover {
+    color: rgb(255, 208, 0);
+    transition: color 0.8s;
+    cursor: pointer;
+}
+
+
+
+.whyexploring {
+    margin: 5% auto;
+    width: 90%;
+    font-family: "Space Grotesk";
+    color: white;
+    text-align: center;
+    
+}
+
+.tittlecolorforthat {
+    margin-top: 3%;
+    margin-left: 5%;
+    font-family: "Space Grotesk";
+}
+
+
+.rocket {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.rocket a {
+    font-family: "Space Grotesk";
+    text-decoration: none;
+}
+
+.astronaut a {
+    font-family: "Space Grotesk";
+    text-decoration: none;
+}
+
+.launchplat a {
+    font-family: "Space Grotesk";
+    text-decoration: none;
+}
+
+#rocketanimation {
+    animation: rocket 3s linear infinite;
+}
+
+.articletext1 {
+    text-align: center;
+    font-family: "Space Grotesk";
+    color: white;
+    border: 1px ;
+    padding: 2%;
+    width: 300px;
+    height: 300px;
+    
+}
+
+#tittlecolor {
+    color: rgb(255, 208, 0); 
+    
+}
+
+#tittlecolor1 {
+    color: rgb(255, 208, 0); 
+    margin-right: 7%;
+}
+
+#formatp {
+    font-weight: bold;
+    text-align: left;
+}
+
+.astronaut {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.solarsystem {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.solarsystem img {
+    
+    height: 200px;
+}
+
+.solarsystemtext {
+    margin: auto;
+    width: 90%;
+    font-family: "Space Grotesk";
+    color: white;
+    text-align: center;
+}
+
+.earth {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mars {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.saturn {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.quiz {
+    margin-top: 3%;
+    margin-left: 5%;
+    font-family: "Space Grotesk";
+    text-align: center;
+}
+
+.formquiz {
+    flex-direction: column;
+    display: flex;
+    background-color: rgba(36, 35, 35, 0.76);
+    margin-top: 5%;
+    width: 60%;
+    margin-left: 19%;
+    margin-bottom: 7%;
+    height: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Space Grotesk";
+}
+
+.myTextt {
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: auto 35% 5%;
+    font-family: "Space Grotesk";
+    color: white;
+    text-shadow: 0px 0px 10px rgba(255, 208, 0, 0.13),
+    0px 15px 30px rgba(255, 208, 0, 0.233),
+    0px -15px 30px rgba(255, 208, 0, 0.233);
+}
+
+
+
+#quiz-form {
+    color: white;
+    font-weight: bold;
+}
+
+#borderinput {
+    border-radius: 10px;
+    height: 30px;
+    font-family: "Space Grotesk";
+    font-weight: bold;
+}
+
+#mySubmit {
+    border-radius: 10px;
+    height: 30px;
+    font-family: "Space Grotesk";
+    font-weight: bold;
+}
+
+#borderinputt {
+    border-radius: 10px;
+    font-family: "Space Grotesk";
+    font-weight: bold;
+}
+
+.formquiz:hover, .register-login:hover {
+    background-color: rgba(36, 35, 35, 0.562);
+    box-shadow: 0 0 10px rgba(255, 208, 0, 0.438),
+    0 0 20px rgba(255, 208, 0, 0.438),
+    0 0 30px rgba(255, 208, 0, 0.438);
+    transition: background-color 5s;
+    transition: box-shadow 3s;
+    animation: login 5s linear;
+}
+
+.register {
+    margin-top: 3%;
+    margin-left: 5%;
+    font-family: "Space Grotesk";
+}
+
+
+.register-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 55%;
+    margin-left: 22%;
+    margin-top: 5%;
+    margin-bottom: 5%;    
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(36, 35, 35, 0.76);
+    
+}
+
+#registertext {
+    font-family: "Space Grotesk";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#registertext a:hover {
+    text-decoration: none;
+}
+
+.verticle-line {
+    width: 2px;
+    height: 80%;
+    box-shadow: 0px 0px 10px rgba(255, 208, 0, 0.438);
+}
+
+.formlogin {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#label { 
+    font-family: "Space Grotesk";
+    font-weight: bold;
+    width: 200px;
+    height: 35px;
+    margin-top: 5%;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#label:hover {
+    transition: 1.5s;
+    box-shadow: 0px 0px 10px rgba(255, 208, 0, 0.438);
+}
+
+#submit {
+    font-family: "Space Grotesk";
+    font-weight: bold;
+    width: 100px;
+    height: 35px;
+    margin-top: 5%;
+    margin-left: 54%;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#submit:hover {
+    transition: 1.5s;
+    background-color: rgba(255, 208, 0, 0.781);
+}
+
+#astronautanimation {
+    animation: astronaut 15s linear infinite;
+}
+
+.launchplat {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#launchanimation {
+    animation: launch 0.3s infinite alternate;
+}
+
+#earthanimation {
+    animation: earth 30s linear infinite;
+}
+
+#marsanimation {
+    animation: mars 30s linear infinite;
+}
+
+
+.footer {
+    
+    color: white;
+}
+
+.contacts {
+    filter: grayscale(0.5);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 90%; /* Ajuste conforme necessário */
+    top: 87%;
+}
+
+#contactimg {
+     margin: auto;
+}
+
+.contacts img {
+    height: 35px;
+}
+@keyframes rocket {
+    0% { transform: scale(1);}
+    50% { transform: scale(1.2);}
+    100% { transform: scale(1);}
+}
+
+
+@keyframes astronaut {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+
+@keyframes launch {
+    0% { transform: translate(0, 0); }
+    50% { transform: translate(-2px, 2px); }
+    100% { transform: translate(2px, -2px); }
+    
+}
+
+@keyframes earth {
+    0% { transform: rotate(0deg);}
+    100% {transform: rotate(-360deg);}
+}
+
+@keyframes mars {
+    0% { transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
